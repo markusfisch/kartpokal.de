@@ -1,0 +1,17 @@
+/* TEAM */
+	Design & Development: Markus Fisch
+	Site: http://kartpokal.de
+
+/* SITE */
+	Last update: 2011-12-05
+	Language: German
+	Software: Inkscape, GIMP
+
+
+                          O         ,-
+                         ° o    . -´  '     ,-
+                          °  .´        ` . ´,´
+                            ( °   ))     . (
+                             `-;_    . -´ `.`.
+                                 `._'       ´
+
