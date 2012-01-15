@@ -9,9 +9,9 @@ div.Season
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	box-shadow: 0 0 16px #0d32af;
-	-webkit-box-shadow: 0 0 16px #0d32af;
-	-moz-box-shadow: 0 0 16px #0d32af;
+	box-shadow: 0 0 16px #646464;
+	-webkit-box-shadow: 0 0 16px #646464;
+	-moz-box-shadow: 0 0 16px #646464;
 	overflow: hidden;
 }
 
