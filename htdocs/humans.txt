@@ -1,9 +1,11 @@
 /* TEAM */
-	Design & Development: Markus Fisch
-	Site: http://kartpokal.de
+
+	Code & Design: Markus Fisch
+	Twitter: @markusfisch
+	From: Nuremberg, Germany, Earth, Sun, Milky Way
 
 /* SITE */
-	Last update: 2011-12-05
+
 	Language: German
 	Software: Inkscape, GIMP
 
