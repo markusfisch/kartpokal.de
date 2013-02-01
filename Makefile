@@ -20,10 +20,7 @@ proto: compress
 		$(PROTO)
 
 compress:
-	@srcar body.css \
-		Season.css \
-		Tracks.css \
-		Footer.css
+	@srcar screen.css
 	@for F in htdocs/*.html; \
 	do \
 		gzip < $$F > $$F.gz; \
