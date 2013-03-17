@@ -1,9 +1,18 @@
 body
 {
-	background: #5d82ff top center url( images/bg.jpg ) no-repeat;
+	background: #5d82ff top center url( i/bg.jpg ) no-repeat;
 	font: 11pt sans-serif; color: #fff;
 	margin: 0 auto; padding: 300px 2% 0;
 	max-width: 64em;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+{
+	body
+	{
+		background-size: 250px;
+		padding-top: 150px;
+	}
 }
 
 h1
@@ -38,6 +47,8 @@ h2
 {
 	body
 	{
+		background-size: 250px;
+		padding-top: 150px;
 		font-size: 80%;
 	}
 }
@@ -209,7 +220,7 @@ div.Tracks li a
 
 div.Tracks li a:hover
 {
-	background-image: url( images/tracks.jpg );
+	background-image: url( i/tracks.jpg );
 	font-size: 0;
 }
 
@@ -242,7 +253,7 @@ div.Terminator
 div.Footer
 {
 	margin: 1em 0 1em; padding: 72px 0 0;
-	background: center top url( images/logo.jpg ) no-repeat;
+	background: center top url( i/logo.jpg ) no-repeat;
 	font-weight: bold; color: #fff;
 }
 
