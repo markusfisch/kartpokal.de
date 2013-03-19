@@ -6,15 +6,6 @@ body
 	max-width: 64em;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
-{
-	body
-	{
-		background-size: 250px;
-		padding-top: 150px;
-	}
-}
-
 h1
 {
 	margin: 0; padding: 0;
@@ -43,36 +34,6 @@ h2
 	text-decoration: none;
 }
 
-@media only screen and (max-width: 30em)
-{
-	body
-	{
-		background-size: 250px;
-		padding-top: 150px;
-		font-size: 80%;
-	}
-}
-
-@media only screen and (min-width: 30em)
-{
-	.Article div.Season,
-		div.Tracks
-	{
-		-webkit-transform: rotate(1deg);
-		-moz-transform: rotate(1deg);
-		-o-transform: rotate(1deg);
-		transform: rotate(1deg);
-	}
-
-	.Article div.Season:nth-child(odd)
-	{
-		-webkit-transform: rotate(-2deg);
-		-moz-transform: rotate(-2deg);
-		-o-transform: rotate(-2deg);
-		transform: rotate(-2deg);
-	}
-}
-
 div.Season,
 	div.Tracks
 {
@@ -92,6 +53,7 @@ div.Season table
 {
 	margin: 0 auto; padding: 0;
 	width: auto;
+	font-size: 80%;
 }
 
 div.Season tbody tr
@@ -173,17 +135,6 @@ div.Season tbody td del
 	color: #c08080;
 }
 
-@media only screen and (max-width: 30em)
-{
-	div.Season th.Pos,
-		div.Season th.Qualify,
-		div.Season td.Pos,
-		div.Season td.Qualify
-	{
-		display: none;
-	}
-}
-
 div.Tracks ul
 {
 	margin: 0; padding: 0;
@@ -193,7 +144,6 @@ div.Tracks ul
 
 div.Tracks li
 {
-
 	display: inline-block;
 	margin: 0 .4em .8em; padding: 0;
 	width: 203px;
@@ -221,7 +171,7 @@ div.Tracks li a
 div.Tracks li a:hover
 {
 	background-image: url( i/tracks.jpg );
-	font-size: 0;
+	color: transparent;
 }
 
 div.Tracks li.Krc a:hover
@@ -268,4 +218,59 @@ div.Footer p
 	margin: 0; padding: 0;
 	white-space: nowrap;
 	text-align: center;
+}
+
+@media only screen and (max-width: 30em)
+{
+	div.Season th.Pos,
+		div.Season th.Qualify,
+		div.Season td.Pos,
+		div.Season td.Qualify
+	{
+		display: none;
+	}
+
+	div.Season:after
+	{
+		display: block;
+		margin: 0; padding: .8em 0 0;
+		content: '(Use landscape orientation to see more details)';
+		font-size: 80%; color: #888;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 50em)
+{
+	body
+	{
+		background-size: 250px;
+		padding-top: 150px;
+		font-size: 80%;
+	}
+
+	div.Season table
+	{
+		font-size: 60%;
+	}
+}
+
+@media only screen and (min-width: 50em)
+{
+	.Article div.Season,
+		div.Tracks
+	{
+		-webkit-transform: rotate(1deg);
+		-moz-transform: rotate(1deg);
+		-o-transform: rotate(1deg);
+		transform: rotate(1deg);
+	}
+
+	.Article div.Season:nth-child(odd)
+	{
+		-webkit-transform: rotate(-2deg);
+		-moz-transform: rotate(-2deg);
+		-o-transform: rotate(-2deg);
+		transform: rotate(-2deg);
+	}
 }
